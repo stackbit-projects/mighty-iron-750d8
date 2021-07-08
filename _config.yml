@@ -1,0 +1,34 @@
+lang: en-US
+title: Scriptor
+description: 'Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers'
+baseurl: ''
+url: ''
+favicon: images/favicon.png
+google_analytics: ''
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Style Guide
+    url: /style-guide/
+  - text: Tags
+    url: /tags/
+  - text: Download
+    url: 'https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme'
+disqus: justgoodthemes
+accent_color: '#2d72d9'
+footer:
+  content: >-
+    &copy; Scriptor all rights reserved. Theme by
+    [JustGoodThemes](https://www.justgoodthemes.com).
+  has_social: true
+plugins:
+  - jekyll-paginate
+paginate: 3
+paginate_path: '/page:num/'
+permalink: '/:title'
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
